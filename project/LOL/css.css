@@ -1,0 +1,185 @@
+*{padding: 0;margin: 0}
+html{background: rgb(51, 51, 68)}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+ul{list-style: none}
+p, h1{margin-bottom: 10px}
+p{
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 400;
+}
+header{
+    margin: 20px auto 0;
+    height: auto;
+    width: 970px;
+}
+#banner_1{
+    /*margin: 20px auto;*/
+    height: 250px;
+    width: 970px;
+    background: url("images/banner-1.jpg");
+}
+#banner_2{
+    /*margin: 20px auto;*/
+    height: 250px;
+    width: 970px;
+    background: url("images/banner-2.jpg");
+}
+#banner_3{
+    /*margin: 20px auto;*/
+    height: 250px;
+    width: 970px;
+    background: url("images/banner-3.jpg");
+}
+#banner_4{
+    /*margin: 20px auto;*/
+    height: 250px;
+    width: 970px;
+    background: url("images/banner-4.jpg");
+}
+#banner_5{
+    /*margin: 20px auto;*/
+    height: 250px;
+    width: 970px;
+    background: url("images/banner-5.jpg");
+}
+nav{
+    height: 28px;
+    background: url("images/nav.gif") repeat-x;
+}
+nav ul{
+    margin-left: 100px;
+    /*background-color: red;*/
+    height: 28px;
+    border-left: 1px solid rgb(188,188,188);
+}
+nav ul li{
+    height: 28px;
+    /*width: 70px;*/
+    border-right: 1px solid rgb(188,188,188);
+    float: left;
+}
+nav ul li a{
+    padding: 5px 22px;
+    font-size: 14px;
+    line-height: 28px;
+}
+nav ul li a:hover{
+    background-color: rgb(199,199,199);
+}
+.active:hover{
+    background-color: green;
+}
+.active{
+    background-color: green;
+}
+article{
+    width: 970px;
+    margin: 0 auto;
+    /*padding: 20px 100px;*/
+    padding: 20px 0 50px;
+
+    background-color: rgb(238, 221, 204);
+}
+.container{
+    position: relative;
+    padding: 0 100px;
+    overflow: hidden;
+}
+.container p a{
+    background-color: gold;
+}
+.pic{
+    margin-left: 100px;
+    /*margin-bottom: 20px;*/
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.pic img{
+    position: absolute;
+
+}
+#ms{
+    top: 0;
+    left: 0;
+}
+#jiqiao a{
+    background-color: gold;
+    font-size: 12px;
+
+}
+#jiqiao{
+    margin-bottom: 20px;
+    list-style: disc;
+}
+.hide{
+    display: none;
+}
+table{
+    /*border: 1px solid rgb(200,200,200);*/
+    font-size: 12px;
+}
+th{padding: 5px 30px}
+td{ padding: 10px 50px}
+tr.even{background-color: goldenrod}
+tr.odd{background-color: gold}
+th{
+   background-color: #008283;
+}
+tr:hover{
+    background-color: rgb(111,111,111);
+}
+
+#jineng a{
+    float: left;
+    margin-right: 5px;
+}
+#jineng ul{height: 100px;}
+#jineng p{margin: 10px 0;}
+#jineng .pic{margin-left: 0;width: 400px;height: 300px;border: 1px solid rgb(111,111,111)}
+
+dl{
+    margin-top: 10px;
+}
+#paihang dd,#paihang dt{
+    font-size: 12px;
+    padding: 5px 0;
+}
+dd, dt{
+    float: left;
+    font-weight: bold;
+}
+dt{
+    margin-right: 30px;
+}
+dd{
+    margin-right: 10px;
+}
+h3{margin-top: 10px}
+input, textarea{
+    display: block;
+}
+form{
+    font-size: 12px;
+}
+input{
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+}
+textarea{
+    height: 100px;
+    width: 400px;
+    padding: 5px;
+}
+#submit{
+    width: 50px;
+    height: 30px;
+}
