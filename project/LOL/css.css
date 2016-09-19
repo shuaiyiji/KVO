@@ -175,6 +175,7 @@ input{
     margin: 5px 0;
 }
 textarea{
+	resize: none;
     height: 100px;
     width: 400px;
     padding: 5px;
