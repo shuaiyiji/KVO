@@ -184,3 +184,63 @@ textarea{
     width: 50px;
     height: 30px;
 }
+#leaveMs{
+    width: 50px;
+    height: 30px;
+}
+.authorMs{
+    display: none;
+    margin-bottom: 20px;
+}
+.authorMs button{
+    height: 30px;
+    padding: 5px 10px;
+}
+.showMe{
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.showMe p{
+    line-height: 30px;
+    font-size: 18px;
+}
+.authorMs img{
+    height: 100px;
+    width: 100px;
+}
+.authorMs table tr td{
+    background-color: gainsboro;
+    height: 100px;
+    padding: 0;
+}
+.authorMs span{padding: 10px}
+.authorMs  .tit{
+    float: right;
+    padding: 10px 0px 10px 15px;
+}
+.comments{
+    padding: 5px;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+    min-height: 30px;
+    width: 300px;
+    position: relative}
+.comments p{
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 30px;
+    font-size: 1em;
+    min-height: 30px;
+    width: 300px;
+    word-break:break-all;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+.comments label{
+    position: absolute;
+    line-height: 30px;
+    left: 0;
+    top: 0;
+}

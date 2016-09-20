@@ -150,8 +150,52 @@ function g(){
     }
 }
 
-//a();
+
+function e(){
+    $(".showMe").click(function(){
+        $.ajax({
+            type:"get",
+            url:"data.json",
+            dataType:"json",
+            success:function(dataB){
+	            	    alert(dataB);
+                $(".authorName").html(dataB.authorName);
+                $(".head").attr("src",dataB.authorHead);
+                $(".tel").html(dataB.tel);
+                $(".major").html(dataB.major);
+                $(".email").html(dataB.email);
+                $(".qq").html(dataB.qq);
+
+                $(".authorMs").show();
+            }
+        })
+    })
+}
+
+function f(){
+    var container = document.getElementsByClassName("container")[0];
+    var name = document.getElementsByClassName("name")[0];
+    var message = document.getElementsByClassName("message")[0];
+
+    if(name.value && message.value){
+        var comments = document.createElement("div");
+        comments.className = "comments";
+        var user = document.createElement("label");
+        var mesageDiv = document.createElement("p");
+        mesageDiv.textContent = message.value;
+        user.innerHTML = name.value + "&nbsp; :";
+        comments.appendChild(user);
+        comments.appendChild(mesageDiv);
+        container.appendChild(comments);
+        var heght = mesageDiv.clientHeight;
+        comments.style.height = heght + "px";
+
+    }else{
+        alert("请您留言");
+    }
+}
 addLoadEvent(a);
 addLoadEvent(b);
 addLoadEvent(c);
 addLoadEvent(g);
+addLoadEvent(e);
