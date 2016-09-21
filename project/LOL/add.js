@@ -156,7 +156,7 @@ function e(){
         $.ajax({
             type:"get",
             url:"data.json",
-            dataType:"jsonp",
+            dataType:"json",
             success:function(dataB){
 	            	    alert(dataB);
                 $(".authorName").html(dataB.authorName);

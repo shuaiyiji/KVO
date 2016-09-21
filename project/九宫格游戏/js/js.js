@@ -129,7 +129,6 @@ $(document).ready(function () {
     console.log(e.keyCode)
     switch (e.keyCode){
         case 97:
-            console.log(6666);
             left();
             break;
         case 100:
